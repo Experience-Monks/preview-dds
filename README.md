@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-<center><img src="http://i.imgur.com/gibac6e.png" width="70%" /></center>
+<img src="http://i.imgur.com/gibac6e.png" />
 
 Preview and convert DDS files from the command line (compressed textures and HDR cubemaps). 
 
