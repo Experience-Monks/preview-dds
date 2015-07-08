@@ -1,0 +1,33 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Roboto Slab';
+}
+
+body.error {
+  background: #f28e82;
+}
+
+div.error {
+  color: black;
+  padding: 20px;
+  font-family: monospace;
+}
+div.error::before {
+  content: 'ERROR:';
+  white-space: pre;
+  display: block;
+  unicode-bidi: embed;
+  font-weight: bold;
+}
+/*
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+*/

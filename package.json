@@ -1,0 +1,62 @@
+{
+  "name": "preview-dds",
+  "version": "1.0.0",
+  "description": "preview and save DDS textures from the command line",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "a-big-triangle": "^1.0.2",
+    "array-range": "^1.0.1",
+    "buffer-to-arraybuffer": "0.0.2",
+    "clamp": "^1.0.1",
+    "cube-face-name": "^1.0.0",
+    "cube-face-vector": "^1.0.0",
+    "electron-canvas-to-buffer": "^1.0.1",
+    "electron-prebuilt": "^0.28.3",
+    "get-canvas-context": "^1.0.1",
+    "glo-shader": "^1.0.2",
+    "glo-texture": "^1.0.1",
+    "minimist": "^1.1.1",
+    "object-assign": "^3.0.0",
+    "parse-dds": "^1.2.0",
+    "rgba-to-canvas": "^1.0.0",
+    "webgl-context": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "dds",
+    "preview",
+    "image",
+    "dxt",
+    "dxt10",
+    "dx10",
+    "cube",
+    "cubemap",
+    "faces",
+    "gl",
+    "webgl",
+    "stackgl",
+    "compressed",
+    "texture",
+    "viewer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/preview-dds.git"
+  },
+  "homepage": "https://github.com/Jam3/preview-dds",
+  "bugs": {
+    "url": "https://github.com/Jam3/preview-dds/issues"
+  },
+  "bin": {
+    "preview-dds": "./bin/cli.js"
+  }
+}
