@@ -1,6 +1,6 @@
 {
   "name": "preview-dds",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "preview and save DDS textures from the command line",
   "main": "index.js",
   "license": "MIT",
@@ -15,8 +15,8 @@
     "buffer-to-arraybuffer": "0.0.2",
     "clamp": "^1.0.1",
     "cube-face-name": "^1.0.0",
-    "cube-face-vector": "^1.0.0",
     "electron-canvas-to-buffer": "^1.0.1",
+    "electron-clean-logging": "0.0.0",
     "electron-prebuilt": "^0.28.3",
     "get-canvas-context": "^1.0.1",
     "glo-shader": "^1.0.2",
@@ -24,8 +24,7 @@
     "minimist": "^1.1.1",
     "object-assign": "^3.0.0",
     "parse-dds": "^1.2.0",
-    "rgba-to-canvas": "^1.0.0",
-    "webgl-context": "^2.2.0"
+    "rgba-to-canvas": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
