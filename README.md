@@ -2,11 +2,11 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-<img src="http://i.imgur.com/gibac6e.png" width="80%" />
-
 Preview and convert DDS files from the command line (compressed textures and HDR cubemaps). 
 
 This only supports a limited range of DDS formats, see [here](https://github.com/Jam3/parse-dds).
+
+<img src="http://i.imgur.com/gibac6e.png" width="80%" />
 
 ## Install
 
