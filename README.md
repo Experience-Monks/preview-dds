@@ -4,7 +4,7 @@
 
 Previews a DDS texture file in a new Electron window. Also supports extracting cube faces and compressed textures from DDS images.
 
-
+(WORK IN PROGRESS)
 
 ## Usage
 
