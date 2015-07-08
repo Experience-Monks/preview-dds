@@ -42,7 +42,7 @@ function run (dds, array, opt) {
       output = 'image/jpg'
     }
 
-    var buffer = canvasToBuffer(canvas, output)
+    var buffer = canvasToBuffer(canvas, output, opt.quality)
     process.stdout.write(buffer)
   }
 

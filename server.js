@@ -18,7 +18,15 @@ app.commandLine.appendSwitch('disable-http-cache')
 app.commandLine.appendSwitch('v', 0)
 app.commandLine.appendSwitch('vmodule', 'console=0')
 
-const argv = minimist(process.argv.slice(2))
+const argv = minimist(process.argv.slice(2), {
+  alias: {
+    level: 'l',
+    quality: 'q',
+    output: 'o',
+    verbose: 'v',
+    face: 'f'
+  }
+})
 const filePath = argv._[0]
 const fullPath = path.resolve(filePath)
 

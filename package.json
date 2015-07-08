@@ -44,6 +44,12 @@
     "webgl",
     "stackgl",
     "compressed",
+    "convert",
+    "from",
+    "to",
+    "png",
+    "jpg",
+    "jpeg",
     "texture",
     "viewer"
   ],
