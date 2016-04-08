@@ -43,10 +43,12 @@ function run (dds, array, opt) {
     }
 
     var buffer = canvasToBuffer(canvas, output, opt.quality)
-    process.stdout.write(buffer)
+    process.stdout.write(buffer, function () {
+      ipc.send('finished')
+    })
+  } else {
+    ipc.send('finished')
   }
-
-  ipc.send('finished')
 }
 
 function bail (err) {
