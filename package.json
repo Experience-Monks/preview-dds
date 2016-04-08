@@ -1,6 +1,6 @@
 {
   "name": "preview-dds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "preview and save DDS textures from the command line",
   "main": "index.js",
   "license": "MIT",
